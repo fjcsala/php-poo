@@ -4,9 +4,9 @@
 
 > Palavras-Chave
 
-**POO:** Programação Orientada a Objetos. É uma forma de aproximar o mundo digital do mundo real através utilizando a programação.
+**POO:** Programação Orientada a Objetos. É uma forma de aproximar o mundo digital do mundo real utilizando a programação.
 
-**Alan Kay:** Responsável por implementar o conceito de POO. Curiosamente ele possuia formação em biologia na qual serviu de inspiração para a elaboração deste conceito.
+**Alan Kay:** Responsável por implementar o conceito de POO. Curiosamente ele possui formação em biologia na qual serviu de inspiração para a elaboração deste conceito.
 
 **Vantagens:**
 - **Confiável:** O isolamento entre partes gera um software seguro. Ao alterar uma parte, nenhuma outra é afetada.
