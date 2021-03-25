@@ -20,3 +20,24 @@
 - **Reutilizável:** Podemos usar objetos de um sistema que criamos em outro sistema futuro.
 
 - **Natural:** Uma coisa natural é mais fácil de entender. Você se preocupa mais na funcionalidade do que nos detalhes de implementação.
+
+---
+
+**Ferramentas do Ambiente**
+
+> Nota: os links abaixo irão redirecionar para a página principal onde a ferramenta deverá ser baixada de acordo com a versão mais recente.
+
+**Servidor (Apache + MySQL + PHP)**
+- **[XAMPP](https://www.apachefriends.org/pt_br/index.html)**
+
+> Nota: a IDE a ser utilizada fica a critério do aluno. Caso seja iniciante sugiro utilizar o NetBeans para poder acompanhar o professor.
+
+**IDE (NetBeans)**
+- **[JRE](https://www.oracle.com/br/java/technologies/javase-jre8-downloads.html)**
+- **[IDE (NetBeans)](https://netbeans.apache.org/download/index.html)**
+
+**IDE (VS Code)**
+- **[IDE (VS Code)](https://code.visualstudio.com/)**
+
+**IDE (Sublime Text)**
+- **[IDE (Sublime Text)](https://www.sublimetext.com/3)**
