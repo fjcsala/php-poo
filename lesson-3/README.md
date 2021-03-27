@@ -46,3 +46,28 @@ p1.vivo = verdadeiro; // é possível pois este atributo é público
 p1.andar(); // é possível pois este método é público
 p1.falar(); // não é possível pois este método é protegido
 ```
+
+- Por padrão na linguagem PHP a visibilidade é **público**, ou seja, caso não seja declarada nenhuma automaticamente será interpretado com público.
+    - Exemplo:
+    ```php
+    class Person {
+        var name; // automaticamente é interpretado com público
+        private documentNumber; // interpretado como private pois foi declarado
+    }
+    ```
+
+- Caso um método público precisar acessar um atributo que é do tipo protegido será possível (a linguagem não irá gerar um erro) pois um método da mesma classe possui acesso ao atributo.
+
+    - Exemplo:
+    ```php
+    class Person {
+        protected $documentNumber;
+
+        public function setDocument($value) {
+            $this->documentNumber = $value;
+        }
+    }
+
+    $p1 = new Person;
+    $p1->setDocument(123456);
+    ```
