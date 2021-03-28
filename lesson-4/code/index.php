@@ -9,12 +9,12 @@
     $p1->setAge(18);
     $p1->setAlive(true);
 
-    echo($p1->getName()."</br>");
-    echo($p1->getAge()."</br>");
+    echo("Nome: ".$p1->getName()."</br>");
+    echo("Idade: ".$p1->getAge()."</br>");
     if($p1->getAlive() == 1) {
-        echo("Está vivo");
+        echo("Vivo: Sim");
     } else {
-        echo("Não está vivo");
+        echo("Vivo: Não");
     }
     */
 
@@ -25,15 +25,15 @@
     $p2->setName("Lucas");
     $p2->setAge(18);
 
-
-    echo($p2->getName()."</br>");
-    echo($p2->getAge()."</br>");
+    echo("Nome: ".$p2->getName()."</br>");
+    echo("Idade: ".$p2->getAge()."</br>");
     if($p2->getAlive() == 1) {
-        echo("Está vivo");
+        echo("Vivo: Sim");
     } else {
-        echo("Não está vivo");
+        echo("Vivo: Não");
     }
     */
+
     // with constructor, with param
     $p3 = new Person("Lucas", 18);
 
