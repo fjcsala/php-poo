@@ -6,7 +6,7 @@
 
 - **Setter:** Método modificador (ou método mutante) para que seja possível acessar um atríbuto e modificar o seu estado atual.
 
-- **Constructor:** Método construtor para que seja determinado que ações devem ser executadas no momento da criação de um novo objeto a partir de sua classe.
+- **Constructor:** Método construtor para que seja determinado quais ações devem ser executadas no momento da criação de um novo objeto a partir de sua classe.
 
 ```php
 class Pessoa {
