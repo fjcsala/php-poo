@@ -39,4 +39,4 @@ ContaBanco
 
 6. É necessário utilizar o método getter e setter para todos os atributos.
 
-7.  É necessário ter um método construtor, onde o seu status e saldo será definido como zero.
+7.  É necessário ter um método construtor, onde o seu status será definido como falso e o seu saldo será definido como zero.
